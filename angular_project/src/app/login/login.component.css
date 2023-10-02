@@ -16,7 +16,7 @@
 }
 
 .login-container .desc {
-    font-size: 30px;
+    font-size: 29px;
     font-family: 'Aladin', cursive;
     letter-spacing: 5px;
     position: absolute;
@@ -32,7 +32,7 @@
     left: 2%;
     width: 490px;
 }
-.login-container .login-form{
+.login-container .login-form {
     width: 500px;
     height: 300px;
     padding: 20px;
@@ -43,3 +43,29 @@
     right: 50px;
     box-shadow: 5px 5px 20px #383838;
 }
+
+.login-container .login-form .form-group {
+    margin-top: 20px;
+}
+
+.login-container .login-form label {
+    font-weight: bold;
+}
+
+.login-container .btn-container {
+    position: relative;
+}
+
+.login-container .btn-container .btn {
+    margin-top: 20px;
+}
+
+.login-container .btn-container .error {
+    position: absolute;
+    top: 32px;
+    right: 0px;
+    color: red;
+}
+
+
+
